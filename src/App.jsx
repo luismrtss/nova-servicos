@@ -1,4 +1,6 @@
 import './App.css'
+import './pages/solicitante/Solicitante.css'
+import './pages/prestador/Prestador.css'
 
 import {
   BrowserRouter,
