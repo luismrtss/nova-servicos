@@ -4035,7 +4035,9 @@
 }
 
 @keyframes nova-spin {
-  to 
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 
@@ -5672,23 +5674,24 @@
 }
 
 @keyframes nova-spin {
-  to 
-}
+  from {
+    transform: rotate(0deg);
+  }
 
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 /* =========================================================
    RESPONSIVO
    ========================================================= */
 
 @media (max-width: 900px) {
-  .my-services-header 
-
-  .my-services-new-button 
-
-  .my-services-stats 
-
-  .my-service-card 
-
+  .my-services-header,
+  .my-services-new-button,
+  .my-services-stats,
+  .my-service-card,
   .my-service-side {
     width: 100%;
 
@@ -5699,10 +5702,8 @@
 }
 
 @media (max-width: 600px) {
-  .my-services-page 
-
-  .my-services-header h1 
-
+  .my-services-page,
+  .my-services-header h1,
   .my-services-stats {
     gap: 10px;
   }
@@ -5716,8 +5717,7 @@
     padding: 18px;
   }
 
-  .my-service-main 
-
+  .my-service-main,
   .my-service-icon {
     width: 48px;
     height: 48px;
@@ -5739,7 +5739,7 @@
   }
 
   .my-service-side 
-}
+
 /* =========================================================
    PROPOSTAS RECEBIDAS
    ========================================================= */
@@ -14790,4 +14790,5 @@
   .provider-rating-client {
     gap: 13px;
   }
+}
 }
