@@ -3775,15 +3775,13 @@
   z-index: 2;
 }
 
-.provider-service-detail-timeline-item.completed
-  .provider-service-detail-timeline-marker {
+.provider-service-detail-timeline-item.completed .provider-service-detail-timeline-marker {
   border-color: #155eef;
   background: #155eef;
   color: #fff;
 }
 
-.provider-service-detail-timeline-item.current
-  .provider-service-detail-timeline-marker {
+.provider-service-detail-timeline-item.current .provider-service-detail-timeline-marker {
   box-shadow: 0 0 0 5px #eaf1ff;
 }
 
